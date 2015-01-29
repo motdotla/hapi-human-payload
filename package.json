@@ -1,0 +1,31 @@
+{
+  "name": "hapi-human-payload",
+  "description": "Combines query and regular payload into one.",
+  "version": "0.0.1",
+  "repository": "git://github.com/rebelmail/hapi-human-payload",
+  "main": "main",
+  "keywords": [
+    "hapi",
+    "plugin",
+    "payload",
+    "query",
+    "human"
+  ],
+  "engines": {
+    "node": ">=0.10.32"
+  },
+  "dependencies": {
+    "hoek": "2.x.x"
+  },
+  "peerDependencies": {
+    "hapi": ">=8.x.x"
+  },
+  "devDependencies": {
+    "code": "1.x.x",
+    "hapi": "8.x.x",
+    "lab": "5.x.x"
+  },
+  "scripts": {
+    "test": "make test-cov"
+  }
+}
