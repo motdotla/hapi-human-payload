@@ -85,7 +85,7 @@ it( "always lets query parameters win over payload", function( done ) {
 
     server.route( { method: "POST", path: "/", handler: function( request, reply ) {  
 
-      expect( request.humanPayload.a ).to.equal( "d" );
+      expect( request.humanPayload.a ).to.equal( "b" );
 
       return reply( "ok" ); 
     } } );
