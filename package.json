@@ -1,7 +1,7 @@
 {
   "name": "hapi-human-payload",
   "description": "Combines query and regular payload into one.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": "git://github.com/rebelmail/hapi-human-payload",
   "main": "main",
   "keywords": [
